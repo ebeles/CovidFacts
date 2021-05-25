@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#40e0d0 "
+    android:layout_height="match_parent">
+    
+    
+
+    <TextView
+       android:id="@+id/text_fact"
+       android:textAlignment="center"
+       android:textSize="14dp"
+       android:layout_marginTop="10dp"
+       android:text="@string/fact_text"
+       android:layout_centerInParent="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_fact"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_fact"
+        android:text="@string/btn_fact_text"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/image_covid"
+        android:contentDescription="=Covid Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/text_fact"
+        android:src="@drawable/covid"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>
